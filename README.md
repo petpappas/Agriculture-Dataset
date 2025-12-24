@@ -102,4 +102,125 @@ This dataset contains detailed information on 50 farms and their crop production
 
 These insights highlight variability in **resource usage, productivity, and farm size** across crop types, providing guidance for **optimized agricultural practices**.
 
+
+
+## 🌱 Crop Type and Farm Associations
+
+**Key Findings:**
+
+- Each crop type is associated with distinct farms.  
+- **No farm grows multiple crop types.**
+
+| Crop Type  | Farm IDs                                |
+|-----------|----------------------------------------|
+| Barley    | F016, F020, F025, F031, F033, F038, F049 |
+| Carrot    | F002, F017, F032, F046                  |
+| Cotton    | F001, F021, F027, F036, F039, F040, F043 |
+| Maize     | F009, F018, F019                        |
+| Potato    | F023, F030, F047, F048                  |
+| Rice      | F008, F011, F014, F024, F041            |
+| Soybean   | F007, F010, F035, F037, F044            |
+| Sugarcane | F003, F006, F012, F015, F042            |
+| Tomato    | F004, F005, F028, F034, F045, F050      |
+| Wheat     | F013, F022, F026, F029                  |
+
+**Insights:**  
+- Crops like Barley, Cotton, Tomato appear in multiple farms.  
+- Maize and Potato appear in fewer farms, possibly reflecting lower popularity or demand.  
+
+**Visualization:** Pie chart for farm distribution by crop type.
+
+---
+
+## 🌾 Total Farm Area by Crop Type
+
+| Crop Type  | Total Farm Area (acres) |
+|------------|------------------------|
+| Cotton     | 1,993.80               |
+| Rice       | 1,845.24               |
+| Barley     | 1,671.22               |
+| Tomato     | 1,655.02               |
+| Sugarcane  | 1,187.99               |
+| Soybean    | 1,050.68               |
+| Maize      | 978.53                 |
+| Wheat      | 872.57                 |
+| Carrot     | 765.90                 |
+| Potato     | 727.24                 |
+
+**Insights:**  
+- Largest areas: Cotton, Rice, Barley  
+- Medium areas: Tomato, Sugarcane, Soybean  
+- Smallest areas: Carrot, Potato, Wheat, Maize  
+
+**Visualization:** Pie chart for farm area distribution by crop type.
+
+---
+
+## 🌱 Crop and Soil Type Relationships
+
+| Crop Type  | Soil Types                   |
+|------------|-----------------------------|
+| Barley     | Sandy, Silty, Clay, Loamy    |
+| Carrot     | Peaty, Loamy, Clay           |
+| Cotton     | Loamy, Clay, Sandy           |
+| Maize      | Peaty, Loamy, Sandy          |
+| Potato     | Loamy, Sandy, Silty          |
+| Rice       | Silty, Clay, Sandy           |
+| Soybean    | Sandy, Silty, Loamy          |
+| Sugarcane  | Silty, Loamy, Clay, Peaty    |
+| Tomato     | Silty, Clay, Loamy, Peaty    |
+| Wheat      | Clay, Loamy, Silty           |
+
+**Insights:**  
+- **Loamy soil** → high yields for Barley, Carrot, Soybean, Sugarcane  
+- **Sandy soil** → high yields for Cotton, Maize, Potato  
+- **Clay soil** → high yields for Rice, Tomato  
+
+**Visualization:** Pie charts for soil type distribution by crop type.
+
+---
+
+## 📅 Crop Season Distribution
+
+| Crop Type  | Seasons            |
+|------------|------------------|
+| Barley     | Zaid, Kharif      |
+| Carrot     | Kharif, Zaid, Rabi|
+| Cotton     | Kharif, Rabi, Zaid|
+| Maize      | Rabi, Zaid        |
+| Potato     | Zaid, Kharif      |
+| Rice       | Kharif, Zaid, Rabi|
+| Soybean    | Rabi, Kharif, Zaid|
+| Sugarcane  | Kharif, Zaid      |
+| Tomato     | Zaid, Rabi, Kharif|
+| Wheat      | Zaid, Rabi        |
+
+**Insights:**  
+- Multi-season crops: Carrot, Rice, Soybean, Tomato  
+- Season-specific crops: Maize, Wheat, Sugarcane  
+- Balanced crops: Tomato, Wheat  
+
+**Visualization:** Pie charts for season distribution by crop type.
+
+---
+
+## 🌟 Soil Type vs Crop Yield
+
+| Crop Type  | Highest Yield Soil | Yield (tons) | Lowest Yield Soil | Yield (tons) |
+|------------|-----------------|-------------|-----------------|-------------|
+| Barley     | Loamy           | 46.47       | Sandy           | 17.44       |
+| Carrot     | Loamy           | 47.70       | Clay            | 27.95       |
+| Cotton     | Sandy           | 28.82       | Loamy           | 13.48       |
+| Maize      | Sandy           | 39.96       | Peaty           | 3.86        |
+| Potato     | Sandy           | 31.47       | Silty           | 20.53       |
+| Rice       | Clay            | 33.66       | Silty           | 4.23        |
+| Soybean    | Loamy           | 40.15       | Sandy           | 28.98       |
+| Sugarcane  | Loamy           | 38.18       | Clay            | 17.19       |
+| Tomato     | Clay            | 43.28       | Loamy           | 12.92       |
+| Wheat      | Silty           | 36.90       | Clay            | 18.07       |
+
+**Insights:**  
+- Loamy soil → high yields for many crops  
+- Sandy soil → variable performance depending on crop  
+- Clay soil → high yields for Rice and Tomato, but lower for some others 
 ---
