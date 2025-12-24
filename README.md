@@ -517,3 +517,98 @@ The analysis highlights how **soil type, season, and irrigation method** signifi
 -Manual and rain-fed irrigation positively influence yield, while flood irrigation may reduce efficiency.
 
 -Input management should be crop-, soil-, and season-specific to optimize yields while minimizing costs and environmental impact.
+
+
+##  Machine Learning Models & Performance Summary
+
+To predict Crop Yield (tons), several regression models were developed and evaluated using the encoded dataset.
+The target variable was Yield(tons), while all other numerical and encoded categorical features were used as predictors.
+
+The models evaluated were:
+
+-Random Forest Regressor
+
+-XGBoost Regressor
+
+-CatBoost Regressor
+
+-K-Nearest Neighbours (KNN) Regressor
+
+-Model performance was assessed using the following metrics:
+
+-MSE (Mean Squared Error) – Measures average prediction error
+
+-RMSE (Root Mean Squared Error) – Error in the same units as Yield
+
+-R² Score – How well the model explains the variance in Yield
+
+-Cross-Validation Score (for KNN) – Model stability check due to small dataset size
+
+## Overall Model Insights
+**Random Forest Regressor:**
+
+-Random Forest delivered strong predictive performance, handling non-linear relationships and feature interactions effectively.
+
+-Works well even without much parameter tuning
+
+-Robust to noise
+
+-Reduces overfitting through averaging
+
+- Best suited when feature interactions are important.
+
+ **XGBoost Regressor:**
+
+-XGBoost also performed very competitively, often achieving similar or slightly better performance than Random Forest.
+
+-Handles complex relationships well
+
+-Built-in regularization reduces overfitting
+
+-Efficient and powerful on structured tabular data
+
+👉 A strong model for yield prediction in agricultural datasets.
+
+**CatBoost Regressor:**
+
+-CatBoost showed excellent predictive accuracy, especially with categorical-rich datasets.
+
+-Handles categorical variables naturally
+
+-Less preprocessing needed
+
+- Very stable predictions
+
+- Often one of the top-performing models for mixed-type datasets.
+
+** K-Nearest Neighbours (KNN) Regressor:**
+
+-KNN showed reasonable but weaker performance compared to tree-based models.
+
+-Highly dependent on feature scaling
+
+-Works better with larger datasets
+
+-Sensitive to noisy features
+
+-Cross-validation helped ensure stability, but overall performance remained below ensemble models.
+
+- Useful as a baseline model — but not the best choice for production use here.
+
+## Key Takeaways
+
+-Tree-based ensemble models (Random Forest, XGBoost, CatBoost) clearly outperform KNN
+
+-Manual & Rain-fed irrigation farms tend to show higher yield efficiency
+
+-Flood irrigation is negatively correlated with yield — possibly due to over-watering or inefficiencies
+
+-Carrot, Tomato and Soybean show strong positive associations with higher yields
+
+-Silty and Loamy soils are generally more yield-efficient than Sandy or Peaty soils
+
+-Fertilizer & Water usage correlate weakly with yield — meaning inputs alone do not guarantee productivity
+
+## Conclusion 
+
+**The study demonstrates that machine learning can successfully model crop yield using farm management, environmental and resource-use features**
