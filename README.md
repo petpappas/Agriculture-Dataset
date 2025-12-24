@@ -458,3 +458,66 @@ The analysis highlights how **soil type, season, and irrigation method** signifi
 * Prioritize drip irrigation for efficiency.
 * Adjust fertilizer and pesticide based on soil and season.
 * Plan crops according to seasonal strengths and soil suitability.
+  
+
+## Soil Type Insights:
+
+-**Loamy Soil:** Supports higher productivity with a broad range of fertilizer, pesticide, and water usage, reflecting intensive management to maximize yields.
+
+-**Sandy Soil:** Requires careful input management, especially for water, due to quick drainage. Yields are moderate and input use is controlled.
+
+-**Clay Soil:** Offers moderate-to-high productivity with balanced inputs, benefiting from its water and nutrient retention.
+
+-**Peaty Soil:** Lower input usage and yields, reflecting natural fertility but limited productivity.
+
+-**Silty Soil:** Shows consistent water retention and moderate input requirements, generally favoring stable yields.
+
+## Seasonal Insights:
+
+-**Kharif Season:** High inputs (fertilizer, water, pesticide) and high yields due to favorable monsoon conditions, but also higher pest risks.
+
+-**Rabi Season:** Moderate inputs and stable productivity, benefiting from controlled irrigation and predictable conditions.
+
+-**Zaid Season:** Lower inputs and yields; shorter season with less pest pressure and water needs, suitable for quick-growing crops.
+
+## Irrigation Insights:
+
+-**Drip Irrigation:** High efficiency, strong yields, moderate fertilizer and water usage.
+
+-**Flood Irrigation:** High yields but very high water and fertilizer usage; can be inefficient and environmentally taxing.
+
+-**Sprinkler Irrigation:** Moderate efficiency; pesticide usage may be slightly higher due to favorable pest conditions.
+
+-**Manual and Rain-fed Irrigation:** Lower input usage overall, reflecting traditional practices but often lower yields.
+
+## Crop-Specific Insights:
+
+-**High-Yield Crops:** Carrot and Tomato show the strongest positive correlations with yield.
+
+-**Rice and Cotton:** High yields and high resource demands, particularly in Kharif season.
+
+-**Wheat and Barley:** Moderate yields during Rabi season; stable and predictable growth.
+
+-**Vegetables (e.g., Tomato, Carrot):** Require targeted fertilizer and pesticide applications; can yield well in Rabi and Zaid seasons.
+
+-**Potato:** Requires higher fertilizer inputs.
+
+-**Cotton:** Lower average yield; negative correlation with yield observed.
+
+## Input and Resource Insights:
+
+-**Fertilizer Usage:** Weakly correlates with yield; its effectiveness depends on crop type and irrigation.
+
+-**Water Usage:** Positive correlation with yield; crops need sufficient water for maximum productivity.
+
+-**Pesticide Usage:** High use may negatively affect yield; season and crop-specific patterns are crucial.
+
+-**Farm Size:** Larger farms show a weak positive correlation with yield; input usage does not scale linearly, indicating efficiency practices.
+
+## General Observations:
+
+-Loamy soil and Kharif season generally favor high yields.
+
+-Manual and rain-fed irrigation positively influence yield, while flood irrigation may reduce efficiency.
+
+-Input management should be crop-, soil-, and season-specific to optimize yields while minimizing costs and environmental impact.
