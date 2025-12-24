@@ -40,7 +40,7 @@ This dataset contains detailed information on 50 farms and their crop production
 
 
 
-## 🔹 Unique Values & Column Types
+##  Unique Values & Column Types
 
 ### Numerical Columns
 - `Farm_Area(acres)`, `Fertilizer_Used(tons)`, `Pesticide_Used(kg)`, `Yield(tons)`, `Water_Usage(cubic meters)`
@@ -56,7 +56,7 @@ This dataset contains detailed information on 50 farms and their crop production
 - **Season:** Kharif, Zaid, Rabi
 
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 ### Univariate Analysis of Numerical Columns
 - **Farm Area:** Wide range (12.5 – 483.88 acres), slightly right-skewed.  
@@ -104,7 +104,7 @@ These insights highlight variability in **resource usage, productivity, and farm
 
 
 
-## 🌱 Crop Type and Farm Associations
+##  Crop Type and Farm Associations
 
 **Key Findings:**
 
@@ -132,7 +132,7 @@ These insights highlight variability in **resource usage, productivity, and farm
 
 ---
 
-## 🌾 Total Farm Area by Crop Type
+##  Total Farm Area by Crop Type
 
 | Crop Type  | Total Farm Area (acres) |
 |------------|------------------------|
@@ -156,7 +156,7 @@ These insights highlight variability in **resource usage, productivity, and farm
 
 ---
 
-## 🌱 Crop and Soil Type Relationships
+##  Crop and Soil Type Relationships
 
 | Crop Type  | Soil Types                   |
 |------------|-----------------------------|
@@ -180,7 +180,7 @@ These insights highlight variability in **resource usage, productivity, and farm
 
 ---
 
-## 📅 Crop Season Distribution
+##  Crop Season Distribution
 
 | Crop Type  | Seasons            |
 |------------|------------------|
@@ -204,7 +204,7 @@ These insights highlight variability in **resource usage, productivity, and farm
 
 ---
 
-## 🌟 Soil Type vs Crop Yield
+## Soil Type vs Crop Yield
 
 | Crop Type  | Highest Yield Soil | Yield (tons) | Lowest Yield Soil | Yield (tons) |
 |------------|-----------------|-------------|-----------------|-------------|
@@ -361,13 +361,9 @@ These insights highlight variability in **resource usage, productivity, and farm
 - Crop-specific patterns indicate targeted pest management can save costs.
 
 
-# Agriculture Data Analysis
 
-This README summarizes the analysis of crop yields, soil types, seasons, irrigation methods, and resource usage based on the provided farm dataset.
 
----
-
-## 1. Yield by Soil Type
+##  Yield by Soil Type
 
 | Crop Type | Highest Yield Soil | Yield (tons) | Lowest Yield Soil | Yield (tons) |
 | --------- | ------------------ | ------------ | ----------------- | ------------ |
@@ -390,7 +386,7 @@ This README summarizes the analysis of crop yields, soil types, seasons, irrigat
 
 ---
 
-## 2. Yield, Fertilizer, Pesticide, and Water Usage by Season
+##  Yield, Fertilizer, Pesticide, and Water Usage by Season
 
 **Observations:**
 
@@ -400,7 +396,7 @@ This README summarizes the analysis of crop yields, soil types, seasons, irrigat
 
 ---
 
-## 3. Yield, Fertilizer, Pesticide, and Water Usage by Irrigation Type
+## Yield, Fertilizer, Pesticide, and Water Usage by Irrigation Type
 
 **Observations:**
 
@@ -411,7 +407,7 @@ This README summarizes the analysis of crop yields, soil types, seasons, irrigat
 
 ---
 
-## 4. Crop Yield and Resource Usage by Crop and Season
+## Crop Yield and Resource Usage by Crop and Season
 
 **Observations:**
 
@@ -426,7 +422,7 @@ This README summarizes the analysis of crop yields, soil types, seasons, irrigat
 
 ---
 
-## 5. Pair Plot Observations
+##  Pair Plot Observations
 
 * Positive correlation between Yield and Water/Fertilizer usage.
 * Fertilizer and Pesticide show moderate positive correlation.
@@ -434,7 +430,7 @@ This README summarizes the analysis of crop yields, soil types, seasons, irrigat
 
 ---
 
-## 6. Distribution Insights by Soil Type
+##  Distribution Insights by Soil Type
 
 * **Loamy:** High productivity; high water, fertilizer, pesticide usage.
 * **Sandy:** Requires careful water management; moderate inputs.
@@ -443,7 +439,7 @@ This README summarizes the analysis of crop yields, soil types, seasons, irrigat
 
 ---
 
-## 7. Distribution Insights by Season
+##  Distribution Insights by Season
 
 * Kharif: High resource usage and yield; pest and disease risk higher.
 * Rabi: Balanced inputs and moderate productivity.
