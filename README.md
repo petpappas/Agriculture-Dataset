@@ -225,164 +225,236 @@ These insights highlight variability in **resource usage, productivity, and farm
 - Clay soil → high yields for Rice and Tomato, but lower for some others 
 ---
 
-Fertilizer Usage by Soil Type
-Highest Fertilizer Used per Crop
-Crop Type	Soil Type	Fertilizer Used (tons)
-Barley	Loamy	7.79
-Carrot	Loamy	5.89
-Cotton	Loamy	6.25
-Maize	Loamy	4.91
-Potato	Loamy	9.43
-Rice	Clay	7.17
-Soybean	Silty	8.57
-Sugarcane	Loamy	6.42
-Tomato	Clay	8.33
-Wheat	Clay	6.11
-Lowest Fertilizer Used per Crop
-Crop Type	Soil Type	Fertilizer Used (tons)
-Barley	Sandy	2.90
-Carrot	Peaty	4.77
-Cotton	Sandy	2.10
-Maize	Peaty	0.57
-Potato	Sandy	3.86
-Rice	Sandy	4.60
-Soybean	Loamy	1.18
-Sugarcane	Clay	1.90
-Tomato	Loamy	4.75
-Wheat	Silty	1.79
+| Crop Type | Highest Yield Soil | Yield (tons) | Lowest Yield Soil | Yield (tons) |
+| --------- | ------------------ | ------------ | ----------------- | ------------ |
+| Barley    | Loamy              | 46.47        | Sandy             | 17.44        |
+| Carrot    | Loamy              | 47.70        | Clay              | 27.95        |
+| Cotton    | Sandy              | 28.82        | Loamy             | 13.48        |
+| Maize     | Sandy              | 39.96        | Peaty             | 3.86         |
+| Potato    | Sandy              | 31.47        | Silty             | 20.53        |
+| Rice      | Clay               | 33.66        | Silty             | 4.23         |
+| Soybean   | Loamy              | 40.15        | Sandy             | 28.98        |
+| Sugarcane | Loamy              | 38.18        | Clay              | 17.19        |
+| Tomato    | Clay               | 43.28        | Loamy             | 12.92        |
+| Wheat     | Silty              | 36.90        | Clay              | 18.07        |
 
-Observations:
+**Insights:**
 
-Loamy soils often require more fertilizer but yield high outputs.
+- Loamy soil generally supports the highest yields for many crops (Barley, Carrot, Soybean, Sugarcane).
 
-Sandy soils have low fertilizer usage due to poor nutrient retention.
+- Sandy soil can provide high yields for some crops like Cotton, Maize, Potato, but may reduce yield for others like Barley and Soybean.
 
-Fertilizer needs vary by crop-soil combination—targeted nutrient management is key.
+- Clay soil gives high yields for Rice and Tomato but lowers yields for some crops like Wheat.
 
-💧 Water Usage by Soil Type
-Highest Water Usage per Crop
-Crop Type	Soil Type	Water Usage (m³)
-Barley	Loamy	93,656
-Carrot	Loamy	88,301
-Cotton	Loamy	57,761
-Maize	Peaty	60,202
-Potato	Sandy	86,990
-Rice	Sandy	78,581
-Soybean	Loamy	73,647
-Sugarcane	Silty	75,539
-Tomato	Clay	93,719
-Wheat	Loamy	65,838
-Lowest Water Usage per Crop
-Crop Type	Soil Type	Water Usage (m³)
-Barley	Silty	39,957
-Carrot	Peaty	68,726
-Cotton	Clay	49,552
-Maize	Loamy	18,660
-Potato	Silty	5,874
-Rice	Silty	9,392
-Soybean	Silty	43,610
-Sugarcane	Peaty	33,616
-Tomato	Peaty	37,466
-Wheat	Silty	23,208
+- Soil-crop matching is crucial for optimizing yield
+  
+**2. Fertilizer Used per Soil Type**
+| Crop Type | Highest Fertilizer Soil | Fertilizer Used (tons) | Lowest Fertilizer Soil | Fertilizer Used (tons) |
+| --------- | ----------------------- | ---------------------- | ---------------------- | ---------------------- |
+| Barley    | Loamy                   | 7.79                   | Sandy                  | 2.90                   |
+| Carrot    | Loamy                   | 5.89                   | Peaty                  | 4.77                   |
+| Cotton    | Loamy                   | 6.25                   | Sandy                  | 2.10                   |
+| Maize     | Loamy                   | 4.91                   | Peaty                  | 0.57                   |
+| Potato    | Loamy                   | 9.43                   | Sandy                  | 3.86                   |
+| Rice      | Clay                    | 7.17                   | Sandy                  | 4.60                   |
+| Soybean   | Silty                   | 8.57                   | Loamy                  | 1.18                   |
+| Sugarcane | Loamy                   | 6.42                   | Clay                   | 1.90                   |
+| Tomato    | Clay                    | 8.33                   | Loamy                  | 4.75                   |
+| Wheat     | Clay                    | 6.11                   | Silty                  | 1.79                   |
 
-Observations:
+**Insights:**
 
-Loamy soils consume more water for high yields.
+- Loamy soil often requires more fertilizer but rewards with higher yields.
 
-Silty soils have lower water needs due to better moisture retention.
+- Sandy soil usually has low fertilizer use due to poor nutrient retention.
 
-Sandy soils require high water for crops like Potato and Rice because of drainage.
+- Fertilizer requirements depend on crop-soil interaction, important for cost-effective farming.
+  
+**3. Water Usage per Soil Type**
+| Crop Type | Highest Water Soil | Water Usage (m³) | Lowest Water Soil | Water Usage (m³) |
+| --------- | ------------------ | ---------------- | ----------------- | ---------------- |
+| Barley    | Loamy              | 93656.06         | Silty             | 39956.88         |
+| Carrot    | Loamy              | 88301.46         | Peaty             | 68725.54         |
+| Cotton    | Loamy              | 57761.24         | Clay              | 49551.67         |
+| Maize     | Peaty              | 60202.14         | Loamy             | 18660.03         |
+| Potato    | Sandy              | 86989.88         | Silty             | 5874.17          |
+| Rice      | Sandy              | 78580.93         | Silty             | 9392.38          |
+| Soybean   | Loamy              | 73646.55         | Silty             | 43610.21         |
+| Sugarcane | Silty              | 75538.56         | Peaty             | 33615.77         |
+| Tomato    | Clay               | 93718.69         | Peaty             | 37466.11         |
+| Wheat     | Loamy              | 65838.40         | Silty             | 23208.04         |
 
-💧 Water Usage by Soil & Irrigation Type
-Highest Water Usage
-Crop Type	Soil Type	Irrigation Type	Water Usage (m³)
-Barley	Loamy	Drip	93,656
-Carrot	Loamy	Manual	88,301
-Cotton	Sandy	Flood	94,755
-Maize	Peaty	Drip	60,202
-Potato	Loamy	Rain-fed	93,407
-Rice	Sandy	Flood	78,581
-Soybean	Loamy	Manual	73,647
-Sugarcane	Clay	Flood	88,977
-Tomato	Clay	Sprinkler	93,719
-Wheat	Loamy	Flood	65,838
-Lowest Water Usage
-Crop Type	Soil Type	Irrigation Type	Water Usage (m³)
-Barley	Sandy	Flood	25,132
-Carrot	Peaty	Manual	68,726
-Cotton	Sandy	Rain-fed	12,008
-Maize	Loamy	Rain-fed	18,660
-Potato	Silty	Sprinkler	5,874
-Rice	Silty	Drip	9,392
-Soybean	Sandy	Manual	40,614
-Sugarcane	Peaty	Rain-fed	33,616
-Tomato	Peaty	Sprinkler	37,466
-Wheat	Silty	Manual	23,208
+**Insights:**
 
-Observations:
+- Loamy soils generally require more water due to higher yields.
 
-Water usage depends heavily on soil + irrigation combination.
+- Silty soils use less water, likely due to better moisture retention.
 
-Flood irrigation generally consumes more water.
+- Sandy soils can demand high irrigation for water-intensive crops.
 
-Drip/Sprinkler efficiency is influenced by soil type and crop.
+- Highlights the importance of soil-aware irrigation strategies.
+  
+**4.Water Usage per Soil & Irrigation Type**
+| Crop Type | Highest Water Soil/Irrigation | Water Usage (m³) | Lowest Water Soil/Irrigation | Water Usage (m³) |
+| --------- | ----------------------------- | ---------------- | ---------------------------- | ---------------- |
+| Barley    | Loamy / Drip                  | 93656.06         | Sandy / Flood                | 25132.48         |
+| Carrot    | Loamy / Manual                | 88301.46         | Peaty / Manual               | 68725.54         |
+| Cotton    | Sandy / Flood                 | 94754.73         | Sandy / Rain-fed             | 12007.70         |
+| Maize     | Peaty / Drip                  | 60202.14         | Loamy / Rain-fed             | 18660.03         |
+| Potato    | Loamy / Rain-fed              | 93407.38         | Silty / Sprinkler            | 5874.17          |
+| Rice      | Sandy / Flood                 | 78580.93         | Silty / Drip                 | 9392.38          |
+| Soybean   | Loamy / Manual                | 73646.55         | Sandy / Manual               | 40614.40         |
+| Sugarcane | Clay / Flood                  | 88976.51         | Peaty / Rain-fed             | 33615.77         |
+| Tomato    | Clay / Sprinkler              | 93718.69         | Peaty / Sprinkler            | 37466.11         |
+| Wheat     | Loamy / Flood                 | 65838.40         | Silty / Manual               | 23208.04         |
 
-🌾 Crop Yield by Season & Irrigation
-Highest Yield
-Crop Type	Season	Irrigation Type	Yield (tons)
-Barley	Zaid	Drip	46.47
-Carrot	Zaid	Manual	47.70
-Cotton	Zaid	Rain-fed	46.19
-Maize	Zaid	Drip	39.96
-Potato	Kharif	Drip	31.47
-Rice	Kharif	Flood	35.01
-Soybean	Rabi	Drip	44.93
-Sugarcane	Zaid	Sprinkler	32.24
-Tomato	Rabi	Flood	48.02
-Wheat	Zaid	Manual	36.90
-Lowest Yield
-Crop Type	Season	Irrigation Type	Yield (tons)
-Barley	Zaid	Flood	11.34
-Carrot	Rabi	Flood	24.34
-Cotton	Zaid	Flood	10.99
-Maize	Rabi	Drip	3.86
-Potato	Zaid	Drip	18.13
-Rice	Kharif	Drip	4.23
-Soybean	Kharif	Drip	17.25
-Sugarcane	Kharif	Flood	20.76
-Tomato	Rabi	Drip	12.92
-Wheat	Zaid	Drip	5.44
+**Insights:**
 
-Observations:
+- Flood irrigation often leads to highest water usage.
 
-Drip irrigation can be associated with both high and low yields depending on season and crop.
+- Drip and Sprinkler can be efficient but soil and crop type affect usage.
 
-Flood irrigation is inefficient for some crops but high yielding for water-intensive crops like Cotton & Rice.
+- Choosing appropriate irrigation per soil type is key to efficiency.
+  
+**5. Yield per Season & Irrigation Type**
+| Crop Type | Highest Yield Season/Irrigation | Yield (tons) | Lowest Yield Season/Irrigation | Yield (tons) |
+| --------- | ------------------------------- | ------------ | ------------------------------ | ------------ |
+| Barley    | Zaid / Drip                     | 46.47        | Zaid / Flood                   | 11.34        |
+| Carrot    | Zaid / Manual                   | 47.70        | Rabi / Flood                   | 24.34        |
+| Cotton    | Zaid / Rain-fed                 | 46.19        | Zaid / Flood                   | 10.99        |
+| Maize     | Zaid / Drip                     | 39.96        | Rabi / Drip                    | 3.86         |
+| Potato    | Kharif / Drip                   | 31.47        | Zaid / Drip                    | 18.13        |
+| Rice      | Kharif / Flood                  | 35.01        | Kharif / Drip                  | 4.23         |
+| Soybean   | Rabi / Drip                     | 44.93        | Kharif / Drip                  | 17.25        |
+| Sugarcane | Zaid / Sprinkler                | 32.24        | Kharif / Flood                 | 20.76        |
+| Tomato    | Rabi / Flood                    | 48.02        | Rabi / Drip                    | 12.92        |
+| Wheat     | Zaid / Manual                   | 36.90        | Zaid / Drip                    | 5.44         |
 
-Highest yields mostly occur in Zaid & Rabi seasons.
+**Insights:**
 
-🐞 Pesticide Usage by Season
-Highest Pesticide Usage
-Crop Type	Season	Pesticide Used (kg)
-Barley	Kharif	2.21
-Carrot	Rabi	2.94
-Cotton	Kharif	3.49
-Maize	Rabi	2.85
-Potato	Kharif	2.68
-Rice	Rabi	3.45
-Soybean	Zaid	2.89
-Sugarcane	Kharif	1.66
-Tomato	Zaid	4.42
-Wheat	Rabi	3.03
-Lowest Pesticide Usage
-Crop Type	Season	Pesticide Used (kg)
-Barley	Zaid	1.56
-Carrot	Zaid	0.81
-Cotton	Rabi	0.91
-Maize	Zaid	1.31
-Potato	Zaid	2.25
-Rice	Zaid	1.77
-Soybean	Rabi	2.45
-Sugarcane	Zaid	1.42
-Tomato	Kharif	0.66
-Wheat	Zaid	2.81
+- Drip irrigation is versatile, giving both high and low yields.
+
+- Flood irrigation is less efficient for some crops.
+
+- Season matters: Zaid and Rabi often yield more, but depends on irrigation.
+  
+**6. Pesticide Used per Season**
+| Crop Type | Highest Pesticide Season | Pesticide Used (kg) | Lowest Pesticide Season | Pesticide Used (kg) |
+| --------- | ------------------------ | ------------------- | ----------------------- | ------------------- |
+| Barley    | Kharif                   | 2.21                | Zaid                    | 1.56                |
+| Carrot    | Rabi                     | 2.94                | Zaid                    | 0.81                |
+| Cotton    | Kharif                   | 3.49                | Rabi                    | 0.91                |
+| Maize     | Rabi                     | 2.85                | Zaid                    | 1.31                |
+| Potato    | Kharif                   | 2.68                | Zaid                    | 2.25                |
+| Rice      | Rabi                     | 3.45                | Zaid                    | 1.77                |
+| Soybean   | Zaid                     | 2.89                | Rabi                    | 2.45                |
+| Sugarcane | Kharif                   | 1.66                | Zaid                    | 1.42                |
+| Tomato    | Zaid                     | 4.42                | Kharif                  | 0.66                |
+| Wheat     | Rabi                     | 3.03                | Zaid                    | 2.81                |
+
+**Insights:**
+
+- Kharif and Rabi seasons generally require more pesticide.
+
+- Zaid season often requires less pesticide due to lower pest pressure.
+
+- Crop-specific patterns indicate targeted pest management can save costs.
+
+
+# Agriculture Data Analysis
+
+This README summarizes the analysis of crop yields, soil types, seasons, irrigation methods, and resource usage based on the provided farm dataset.
+
+---
+
+## 1. Yield by Soil Type
+
+| Crop Type | Highest Yield Soil | Yield (tons) | Lowest Yield Soil | Yield (tons) |
+| --------- | ------------------ | ------------ | ----------------- | ------------ |
+| Barley    | Loamy              | 46.47        | Sandy             | 17.44        |
+| Carrot    | Loamy              | 47.70        | Clay              | 27.95        |
+| Cotton    | Sandy              | 28.82        | Loamy             | 13.48        |
+| Maize     | Sandy              | 39.96        | Peaty             | 3.86         |
+| Potato    | Sandy              | 31.47        | Silty             | 20.53        |
+| Rice      | Clay               | 33.66        | Silty             | 4.23         |
+| Soybean   | Loamy              | 40.15        | Sandy             | 28.98        |
+| Sugarcane | Loamy              | 38.18        | Clay              | 17.19        |
+| Tomato    | Clay               | 43.28        | Loamy             | 12.92        |
+| Wheat     | Silty              | 36.90        | Clay              | 18.07        |
+
+**Insights:**
+
+* Loamy soil supports higher yields but requires more inputs.
+* Sandy and Peaty soils require careful water and fertilizer management.
+* Clay soil provides moderate yields and resource usage.
+
+---
+
+## 2. Yield, Fertilizer, Pesticide, and Water Usage by Season
+
+**Observations:**
+
+* **Kharif:** High yields and high resource usage (fertilizer, water, pesticide).
+* **Rabi:** Moderate yields and moderate resource usage.
+* **Zaid:** Lower yields and lower inputs; short-duration crops.
+
+---
+
+## 3. Yield, Fertilizer, Pesticide, and Water Usage by Irrigation Type
+
+**Observations:**
+
+* **Drip Irrigation:** High yields with moderate inputs → efficient and sustainable.
+* **Flood Irrigation:** High yields but high water and fertilizer usage → less efficient.
+* **Sprinkler & Manual:** Moderate yields and inputs.
+* **Rain-fed:** Lowest yields and inputs, traditional farming.
+
+---
+
+## 4. Crop Yield and Resource Usage by Crop and Season
+
+**Observations:**
+
+* Kharif season: High yields for Rice, Cotton, Maize; high inputs.
+* Rabi season: Moderate yields for Wheat, Barley; moderate inputs.
+* Zaid season: Short season with generally lower yields and inputs, except for some vegetables.
+* Crop-specific trends:
+
+  * Rice & Cotton: High yields and resource demands during Kharif.
+  * Wheat & Barley: Stable yields in Rabi.
+  * Vegetables: Moderate yields and targeted input usage, adaptable across Rabi and Zaid.
+
+---
+
+## 5. Pair Plot Observations
+
+* Positive correlation between Yield and Water/Fertilizer usage.
+* Fertilizer and Pesticide show moderate positive correlation.
+* Farm area impacts total production but not yield per unit area.
+
+---
+
+## 6. Distribution Insights by Soil Type
+
+* **Loamy:** High productivity; high water, fertilizer, pesticide usage.
+* **Sandy:** Requires careful water management; moderate inputs.
+* **Clay:** Moderate-to-high productivity; balanced inputs.
+* **Peaty:** Lower inputs and yields; naturally fertile.
+
+---
+
+## 7. Distribution Insights by Season
+
+* Kharif: High resource usage and yield; pest and disease risk higher.
+* Rabi: Balanced inputs and moderate productivity.
+* Zaid: Low inputs and yields; less intensive crops.
+
+---
+
+## Conclusion
+
+The analysis highlights how **soil type, season, and irrigation method** significantly affect crop yield and resource usage. Insights can help optimize farm management:
+
+* Prioritize drip irrigation for efficiency.
+* Adjust fertilizer and pesticide based on soil and season.
+* Plan crops according to seasonal strengths and soil suitability.
