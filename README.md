@@ -29,10 +29,10 @@ This dataset contains detailed information on 50 farms and their crop production
 
 ## Statistical Insights
 
-Farms vary widely in size and input usage, reflecting diverse cultivation practices.
+-Farms vary widely in size and input usage, reflecting diverse cultivation practices.
 
-Fertilizer and pesticide application show moderate variability.
+-Fertilizer and pesticide application show moderate variability.
 
-Crop yields are reasonably consistent, and water usage is significant across farms.
+-Crop yields are reasonably consistent, and water usage is significant across farms.
 
-This dataset is ideal for analyzing the relationship between farm practices, resource usage, and crop productivity.
+-This dataset is ideal for analyzing the relationship between farm practices, resource usage, and crop productivity.
